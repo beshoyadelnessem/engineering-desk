@@ -1,0 +1,21 @@
+
+/* ---- engineer: extra calculators + grouped nav (v5) ---- */
+#engineer nav.tabs .grp{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:12px 14px 2px}
+#engineer nav.tabs .grp:first-child{margin-top:0}
+#engineer .edraw{--clay:#b0643f;--sage:#5f7f6e;--steel:var(--accent);--panel:var(--paper)}
+:root[data-theme="dark"] #engineer .edraw{--clay:#d98a62;--sage:#8fb09f}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) #engineer .edraw{--clay:#d98a62;--sage:#8fb09f}}
+#engineer .edraw svg .ln{stroke:var(--ink);fill:none;stroke-width:1.4}
+#engineer .edraw svg .th{stroke:var(--ink);fill:none;stroke-width:2}
+#engineer .edraw svg .gr{stroke:var(--muted);fill:none;stroke-width:1}
+#engineer .edraw svg .ch{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:10 3 2 3}
+#engineer .edraw svg .ds{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:4 3}
+#engineer .edraw svg .cl{stroke:var(--clay);fill:none;stroke-width:2}
+#engineer .edraw svg .fl{fill:var(--clay);fill-opacity:.22;stroke:var(--clay);stroke-width:1}
+#engineer .edraw svg .fs{fill:var(--sage);fill-opacity:.25;stroke:var(--sage);stroke-width:1}
+#engineer .edraw svg .fb{fill:var(--steel);fill-opacity:.25;stroke:var(--steel);stroke-width:1}
+#engineer .edraw svg text{font-family:var(--mono);font-size:14px;fill:var(--muted);stroke:none}
+#engineer .edraw svg text.b{fill:var(--ink)}
+#engineer .edraw svg{max-height:340px}
+#engineer .res div.hero strong{font-size:22px}
+@media (max-width:900px){#engineer nav.tabs .grp{display:none}}
